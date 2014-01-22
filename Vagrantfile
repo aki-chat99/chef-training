@@ -6,7 +6,6 @@ default = {
 VM_NODENAME = "vagrant-#{default[:user]}-#{default[:project]}"
 
 Vagrant.configure("2") do |config|
-  config.cache.auto_detect = true
   config.vm.hostname = VM_NODENAME
 
   config.vm.box = "opscode-debian-7.2.0"
