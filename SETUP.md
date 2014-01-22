@@ -51,7 +51,7 @@ Install Vagrant
 
 ## Install Chef for your Workstation
 
-> NOTE: You don't need to reinstall something you already have chef tools
+> NOTE: You don't need to reinstall Chef if you already have chef tools
 > installed on your workstation via omnibus or gems. But you should be using the 
 > latest or near latest versions of these tools.
 > (See http://www.getchef.com/chef/install/ for how to install on other platforms)
