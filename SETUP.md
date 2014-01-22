@@ -49,6 +49,42 @@ Install Vagrant
 
   `vagrant plugin list`
 
+## Install Chef for your Workstation
+
+> NOTE: You don't need to reinstall something you already have chef tools
+> installed on your workstation via omnibus or gems. But you should be using the 
+> latest or near latest versions of these tools.
+> (See http://www.getchef.com/chef/install/ for how to install on other platforms)
+
+The Chef Omnibus installer installs the entire chef tool set and
+required packages including its own ruby in /opt/chef. Its the best
+way to insure you have a complete set of tools and its designed to not
+interfere with other copies of the tools you may already have
+installed on your machine.
+
+1. Download and install the omnibus installer  
+    The following command will download and install all the chef tools in
+    /opt/chef. You will need to give it your password for sudo:
+    ```
+    curl -L https://www.opscode.com/chef/install.sh | sudo bash
+    ```
+    Besides downloading and install everything you need in /opt/chef, it
+    will also set up the following symlinks in `/usr/bin`:
+    ```
+    shef -> /opt/chef/bin/shef
+    ohai -> /opt/chef/bin/ohai
+    knife -> /opt/chef/bin/knife
+    chef-solo -> /opt/chef/bin/chef-solo
+    chef-shell -> /opt/chef/bin/chef-shell
+    chef-client -> /opt/chef/bin/chef-client
+    chef-apply -> /opt/chef/bin/chef-apply
+    ```
+2. You have to add the following symlink via a shell command line:
+
+    ```
+    sudo ln -s /opt/chef/bin/chef-zero /usr/bin
+    ```
+
 Note
 ----
 
