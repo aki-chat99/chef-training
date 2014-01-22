@@ -38,10 +38,14 @@ Install Vagrant
    You can verify the box is correctly installed with:
     `vagrant box list`
 
-2. Install vagrant omnibus plugin:
+2. Install vagrant plugins:
 
-   `vagrant plugin install vagrant-omnibus`
+    ```
+    vagrant plugin install vagrant-vbguest
+    vagrant plugin install vagrant-omnibus
+    ```
 
+* *vagrant-vbguest:* Makes sure the virtualbox guest-additons are up to date
 * *vagrant-omnibus:* Ensures the desired version of Chef is installed
   via the platform-specific Omnibus packages 
 
