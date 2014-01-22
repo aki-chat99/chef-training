@@ -69,7 +69,8 @@ installed on your machine.
     curl -L https://www.opscode.com/chef/install.sh | sudo bash
     ```
     Besides downloading and install everything you need in /opt/chef, it
-    will also set up the following symlinks in `/usr/bin`:
+    will also set up the following symlinks in `/usr/bin`:  
+
     ```
     shef -> /opt/chef/bin/shef
     ohai -> /opt/chef/bin/ohai
