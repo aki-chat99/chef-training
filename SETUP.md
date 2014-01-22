@@ -15,7 +15,7 @@ Install VirtualBox
 
    The latest version available at this time is 4.3.6 and can be downloaded directly with:
 
-  `wget http://download.virtualbox.org/virtualbox/4.3.6/VirtualBox-4.3.6-91406-OSX.dmg`
+`wget http://download.virtualbox.org/virtualbox/4.3.6/VirtualBox-4.3.6-91406-OSX.dmg`
 
    After installing download also from the same page the *VirtualBox Extension Pack*. This will automatically open VirtualBox and install once you open the file.
    Direct link for the ext pack is: `http://download.virtualbox.org/virtualbox/4.3.6/Oracle_VM_VirtualBox_Extension_Pack-4.3.6-91406.vbox-extpack`
@@ -27,7 +27,7 @@ Install Vagrant
 
    The latest version available at this time is 1.4.3 and can be downloaded directly with:
 
-    `wget https://dl.bintray.com/mitchellh/vagrant/Vagrant-1.4.3.dmg`
+`wget https://dl.bintray.com/mitchellh/vagrant/Vagrant-1.4.3.dmg`
 
 ### Set up Vagrant for the class
 
