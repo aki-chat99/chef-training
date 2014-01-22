@@ -31,7 +31,7 @@ Install Vagrant
 
 ### Set up Vagrant for the class
 
-1. Download and install the vagrant box we will be using
+1. Download and install the vagrant box we will be using. This is a standard debian box with a minimal install build by opscode:
 
    `vagrant box add opscode-debian-7.2.0 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_debian-7.2.0_chef-provisionerless.box`
 
@@ -52,4 +52,4 @@ Install Vagrant
 Note
 ----
 
-Please contact us if you have any issues in following these steps. We need everyone to have these steps and have VirtualBox, Vagrant and the Debian Box installed before we start the class as these steps could take a while to perform as some downloads a big.
+Please contact us if you have any issues in following these steps. We need everyone to have VirtualBox, Vagrant and the Debian Box installed before we start the class as these steps could take a while to perform as some downloads a quite big.
