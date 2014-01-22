@@ -65,20 +65,9 @@ installed on your machine.
 1. Download and install the omnibus installer  
     The following command will download and install all the chef tools in
     /opt/chef. You will need to give it your password for sudo:
-    ```
-    curl -L https://www.opscode.com/chef/install.sh | sudo bash
-    ```
-    Besides downloading and install everything you need in /opt/chef, it
-    will also set up the following symlinks in `/usr/bin`:  
 
     ```
-    shef -> /opt/chef/bin/shef
-    ohai -> /opt/chef/bin/ohai
-    knife -> /opt/chef/bin/knife
-    chef-solo -> /opt/chef/bin/chef-solo
-    chef-shell -> /opt/chef/bin/chef-shell
-    chef-client -> /opt/chef/bin/chef-client
-    chef-apply -> /opt/chef/bin/chef-apply
+    curl -L https://www.opscode.com/chef/install.sh | sudo bash
     ```
 2. You have to add the following symlink via a shell command line:
 
