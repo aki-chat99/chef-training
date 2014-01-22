@@ -69,11 +69,22 @@ installed on your machine.
     ```
     curl -L https://www.opscode.com/chef/install.sh | sudo bash
     ```
-2. You have to add the following symlink via a shell command line:
 
-    ```
-    sudo ln -s /opt/chef/bin/chef-zero /usr/bin
-    ```
+### Confirm Chef Instalation
+
+You can comfirm that Chef is installed by entering the following in a shell command line:
+
+```
+knife --version
+```
+
+The response should be something like:
+
+```
+Chef: 11.8.2
+```
+
+Please make sure you have at least Chef version 11.6
 
 Note
 ----
