@@ -11,22 +11,22 @@ Assumptions
 Install VirtualBox
 ------------------
 
-    Download and install VirtualBox from the package available here:
+   Download and install VirtualBox from the package available here:
     https://www.virtualbox.org/wiki/Downloads
 
-    The latest available version is 4.3.6 at this time and can be downloaded directly with:
-    `wget http://download.virtualbox.org/virtualbox/4.3.6/VirtualBox-4.3.6-91406-OSX.dmg`
+   The latest available version is 4.3.6 at this time and can be downloaded directly with:
+   `wget http://download.virtualbox.org/virtualbox/4.3.6/VirtualBox-4.3.6-91406-OSX.dmg`
 
-    After installing download also from the same page the *VirtualBox Extension Pack*
+   After installing download also from the same page the *VirtualBox Extension Pack*
     This will automatically open VirtualBox and install once you open the file.
 
 Install Vagrant
 ---------------
 
-    Download the vagrant package form http://www.vagrantup.com/downloads.html
+   Download the vagrant package form http://www.vagrantup.com/downloads.html
     and install it as a regular dmg package. 
 
-    The latest version available at this time is 1.4.3 and can be downloaded directly with:
+   The latest version available at this time is 1.4.3 and can be downloaded directly with:
     `wget https://dl.bintray.com/mitchellh/vagrant/Vagrant-1.4.3.dmg`
 
 ### Set up Vagrant for the class
