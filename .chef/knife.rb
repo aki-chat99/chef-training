@@ -7,5 +7,5 @@ chef_server_url   "http://33.33.33.1:8889"
 node_name         username
 client_key        "#{current_dir}/#{username}.pem"
 validation_key    "#{current_dir}/chef-validator.pem"
-cache_options( :path => "#{current_dir}/../.chef/checksums" )
+cache_options( :path => "#{current_dir}/checksums" )
 cookbook_path     ["#{current_dir}/../cookbooks"]
