@@ -1,6 +1,6 @@
 # OpsAcademy Chef Fundamentals Base Chef Repo
 
-For how to setup to use this see [SETUP.md]
+For how to setup to use this see [SETUP.md](SETUP.md)
 
 ***
 
