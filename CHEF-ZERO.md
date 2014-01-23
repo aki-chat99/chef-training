@@ -8,6 +8,16 @@ We will be using chef-zero as a lightweight local chef server. This is an in-mem
 
 You are lucky! chef-zero is included with chef 11.8.0 and newer. You are all set!
 
+Create a symlink to ensure that chef-zero is in your path.
+
+Example:
+`sudo ln -s /opt/chef/bin/chef-zero /usr/bin/chef-zero`
+
+Then start up chef-zero:
+
+`chef-zero -H 33.33.33.1 -l debug`
+
+
 2. chef 11.6.x or older
 -----------------------
 
