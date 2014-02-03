@@ -6,7 +6,7 @@ We will be using chef-zero as a lightweight local chef server. This is an in-mem
 1. chef 11.8.x
 ---------------
 
-You are lucky! chef-zero is included with chef 11.8.0 and newer. You are all set!
+You are lucky! [chef-zero](https://github.com/opscode/chef-zero) is included with chef 11.8.0 and newer. You are all set!
 
 Create a symlink to ensure that chef-zero is in your path.
 
